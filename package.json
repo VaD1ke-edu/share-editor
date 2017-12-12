@@ -1,0 +1,21 @@
+{
+  "name": "share-editor",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaD1ke-edu/share-editor"
+  },
+  "scripts": {
+    "build": "babel src -d dist --presets es2015",
+    "start": "node dist/server.js"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "node-static": "^0.7.10",
+    "socket.io": "^2.0.4"
+  }
+}
